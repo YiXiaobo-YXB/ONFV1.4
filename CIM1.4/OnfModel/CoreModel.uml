@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_aG1hkAPxEeewDI5jM-81FA/21" xmlns:RootElement="http:///schemas/RootElement/_B4YnAGFbEeeiJ9-h1KDHig/45" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_aG1hkAPxEeewDI5jM-81FA/21 OpenModel_Profile.profile.uml#_aG-rgAPxEeewDI5jM-81FA http:///schemas/RootElement/_B4YnAGFbEeeiJ9-h1KDHig/45 Experimental.profile.uml#_B4kNMGFbEeeiJ9-h1KDHig">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_moRxALT8Eem4H8hcuc9_WA/23" xmlns:RootElement="http:///schemas/RootElement/_nkzDoLT8Eem4H8hcuc9_WA/46" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_moRxALT8Eem4H8hcuc9_WA/23 OpenModel_Profile.profile.uml#_moS_ILT8Eem4H8hcuc9_WA http:///schemas/RootElement/_nkzDoLT8Eem4H8hcuc9_WA/46 Experimental.profile.uml#_nk-p0LT8Eem4H8hcuc9_WA">
   <uml:Package xmi:id="_oGqilVLNEeO75dO39GbF8Q" name="CoreModel">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_8Q4ecKxrEeS5HuAudtqItw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -3357,7 +3357,7 @@ Not all parameters need be selected and applied.</body>
               </ownedComment>
               <specification xmi:type="uml:LiteralString" xmi:id="_QdpnkCRVEeSaIcETw2aroA" value="alternativeNavigation"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Constraint" xmi:id="_ZsqU0CRVEeSaIcETw2aroA" name="NavigationLtpToLinkViaFd" constrainedElement="_2EZj8FYkEeOVGaP4lO41SQ _oGqnu1LNEeO75dO39GbF8Q">
+            <packagedElement xmi:type="uml:Constraint" xmi:id="_ZsqU0CRVEeSaIcETw2aroA" name="NavigationLtpToLinkViaFd" constrainedElement="_2EZj8FYkEeOVGaP4lO41SQ _kr10UEDrEeWHCPNn7aoIVw">
               <specification xmi:type="uml:LiteralString" xmi:id="_ZtFyoCRVEeSaIcETw2aroA" value="reverseNavigation"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Constraint" xmi:id="_1dBdYCRVEeSaIcETw2aroA" name="NavigationLtpToLinkViaLinkPort" constrainedElement="_oGqnwVLNEeO75dO39GbF8Q _buzL4BNjEeS1heseQTA6lw">
@@ -11771,28 +11771,28 @@ Significant definition is required here.</body>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nKzQ4BJvEeajhbtskMXJfw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YMYS4GFuEeerc4Zz6ufSeg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YMYS4WFuEeerc4Zz6ufSeg" key="Version" value="0.0.46"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YMYS4mFuEeerc4Zz6ufSeg" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YMYS42FuEeerc4Zz6ufSeg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YMYS5GFuEeerc4Zz6ufSeg" key="Date" value="2017-07-05"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YMYS5WFuEeerc4Zz6ufSeg" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qUAxALT-Eem4H8hcuc9_WA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qUAxAbT-Eem4H8hcuc9_WA" key="Version" value="0.0.47"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qUAxArT-Eem4H8hcuc9_WA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qUAxA7T-Eem4H8hcuc9_WA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qUAxBLT-Eem4H8hcuc9_WA" key="Date" value="2019-08-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qUAxBbT-Eem4H8hcuc9_WA" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nK0fABJvEeajhbtskMXJfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="Experimental.profile.uml#_B4kNMGFbEeeiJ9-h1KDHig"/>
+        <references xmi:type="ecore:EPackage" href="Experimental.profile.uml#_nk-p0LT8Eem4H8hcuc9_WA"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="Experimental.profile.uml#_EDtRcAH_Eea6DZDQ0h6cdQ"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pSpuMBJvEeajhbtskMXJfw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aXPxUAlxEeeG88DxejlGSA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXPxUQlxEeeG88DxejlGSA" key="Version" value="0.2.9"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXPxUglxEeeG88DxejlGSA" key="Comment" value="Bug fix:&#xD;&#xA;Made PassedByReference::base_Property and PassedByReference::base_Parameter optional since the PassedByReference stereotype extends more than one metaclass.&#xD;&#xA;&#xD;&#xA;Editorial change:&#xD;&#xA;Imported the required metaclasses via &quot;Element Import&quot;."/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXPxUwlxEeeG88DxejlGSA" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXPxVAlxEeeG88DxejlGSA" key="Date" value="2017-03-08"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aXPxVQlxEeeG88DxejlGSA" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qY3b0LT-Eem4H8hcuc9_WA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qY3b0bT-Eem4H8hcuc9_WA" key="Version" value="0.2.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qY3b0rT-Eem4H8hcuc9_WA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qY3b07T-Eem4H8hcuc9_WA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qY3b1LT-Eem4H8hcuc9_WA" key="Date" value="2019-08-02"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qY3b1bT-Eem4H8hcuc9_WA" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pSq8UBJvEeajhbtskMXJfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="OpenModel_Profile.profile.uml#_aG-rgAPxEeewDI5jM-81FA"/>
+        <references xmi:type="ecore:EPackage" href="OpenModel_Profile.profile.uml#_moS_ILT8Eem4H8hcuc9_WA"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
     </profileApplication>
