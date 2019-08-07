@@ -3,4 +3,7 @@
   <semanticResources>DIY.notation</semanticResources>
   <semanticResources>DIY.di</semanticResources>
   <semanticResources>DIY.uml</semanticResources>
+  <semanticResources>model.notation</semanticResources>
+  <semanticResources>model.di</semanticResources>
+  <semanticResources>model.uml</semanticResources>
 </viewpoint:DAnalysis>
