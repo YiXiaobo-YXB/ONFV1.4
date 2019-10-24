@@ -6,4 +6,7 @@
   <semanticResources>model.notation</semanticResources>
   <semanticResources>model.di</semanticResources>
   <semanticResources>model.uml</semanticResources>
+  <semanticResources>model2.notation</semanticResources>
+  <semanticResources>model2.di</semanticResources>
+  <semanticResources>model2.uml</semanticResources>
 </viewpoint:DAnalysis>
