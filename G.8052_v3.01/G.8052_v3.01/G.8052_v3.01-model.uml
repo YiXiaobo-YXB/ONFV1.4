@@ -20,7 +20,9 @@ Version 1.05: output from November Geneva meeting.&#xD;
 Version 1.04: input to November Geneva meeting.&#xD;
 Version 1.03: outcome of March Geneva meeting.</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Package" xmi:id="_MP5wgJKmEdybINoKQq_hfQ" name="Class Diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MP5wgJKmEdybINoKQq_hfQ" name="Class Diagrams">
+      <packagedElement xmi:type="uml:Package" xmi:id="_kgyLwLmsEemrtsoicf2Oog" name="Class Diagrams"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_SdNnUJKmEdybINoKQq_hfQ" name="Object Classes">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SdNnUZKmEdybINoKQq_hfQ" source="uml2.diagrams"/>
       <ownedRule xmi:type="uml:Constraint" xmi:id="_feuvQDqZEeCu35lketJ8Yg">
@@ -437,7 +439,7 @@ The value of this attribute defines the maximum delay, in tens of microseconds, 
         <ownedComment xmi:type="uml:Comment" xmi:id="_aJqzEErQEeWzKdcIlxkIUg" annotatedElement="_LH3dQJNdEdyK0-bKI_zx1A">
           <body>Defect correlation Process related attribute: currentProblemList</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_K43XAOxFEeGzwM2Uvwf5Xw" general="_ACUEMOxFEeGzwM2Uvwf5Xw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_vb0Y8LmLEemrtsoicf2Oog" general="_ACUEMOxFEeGzwM2Uvwf5Xw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_yvHlUXnNEd2GobjTM4neEA" name="_multiplexing" visibility="public" type="_q7yL4HnNEd2GobjTM4neEA" aggregation="composite" association="_yvHlUHnNEd2GobjTM4neEA">
           <ownedComment xmi:type="uml:Comment" xmi:id="_GYEacOxHEeGzwM2Uvwf5Xw" annotatedElement="_yvHlUXnNEd2GobjTM4neEA">
             <body>This navigable attribute models the sever layer (Ethernet) related information of the ETH/ETH-m source function. This information is modeled as a conditional set (Pac) of attributes specified in EthServerTtpSink_Pac. </body>
@@ -3947,6 +3949,7 @@ It is a subclass of the MEP Control and MIP Control object classes to inherit th
         <generalization xmi:type="uml:Generalization" xmi:id="_3ZLjcFEjEd6VSrclB-Ybig" general="_pH_vEFEeEd6VSrclB-Ybig"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_i8-CwDi0Eeada84U295Jpw" general="_81yN8D1hEeaeMqGDy6oMUw"/>
         <generalization xmi:type="uml:Generalization" xmi:id="_mby6EDi0Eeada84U295Jpw" general="_IT0XgD1iEeaeMqGDy6oMUw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_K43XAOxFEeGzwM2Uvwf5Xw" general="_ACUEMOxFEeGzwM2Uvwf5Xw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Osz7EOuHEeGZr5p9Vdkojw" name="auxiliaryFunctionPositionSequence" visibility="public" type="_v3pIQOuHEeGZr5p9Vdkojw" isOrdered="true">
           <ownedComment xmi:type="uml:Comment" xmi:id="_UtlxwOuHEeGZr5p9Vdkojw" annotatedElement="_Osz7EOuHEeGZr5p9Vdkojw">
             <body>This attribute indicates the positions (i.e., the relative order) of all the MEP, MIP, and TCS objects which are associated with the CTP.</body>
@@ -8455,7 +8458,7 @@ The semantic of each bit position will be defined in the Documentation field of 
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7MAP4JMzEeCl6_GpT6JJrA" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7MJZ0JMzEeCl6_GpT6JJrA" key="cond"/>
         </eAnnotations>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_MWLZ8MNlEeCUp9m8vv2E5A" name="" constrainedElement="_R8wyQJMxEeCKK9uc7Khnmg">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_MWLZ8MNlEeCUp9m8vv2E5A" name="" constrainedElement="_MP5wgJKmEdybINoKQq_hfQ">
           <specification xmi:type="uml:LiteralString" xmi:id="_VTDOISFqEeWrHvhCHfosZA" value="only in case of G.8021 Sn/ETH, Sn-X-L/ETH, Sm/ETH, Sm-X-L/ETH, Pq/ETH, Pq-X-L/ETH, ODUkP/ETH, ODUkP-X-L/ETH, Sn-X/ETC3, ODU2P/ETHPP-OS atomic functions">
             <name xsi:nil="true"/>
           </specification>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ProfileLifecycle_Profile="http:///schemas/ProfileLifecycle_Profile/_AL2goHweEee8oZaf2rRQlg/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlnotationext="http://www.eclipse.org/papyrus/umlnotation" xsi:schemaLocation="http:///schemas/ProfileLifecycle_Profile/_AL2goHweEee8oZaf2rRQlg/3 ../ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_AL3HsHweEee8oZaf2rRQlg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:umlnotationext="http://www.eclipse.org/papyrus/umlnotation" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 #_JpVIYIJYEee3epvelL_xvA">
   <uml:Profile xmi:id="_m1xqsHBgEd6FKu9XX1078A" name="OpenModel_Profile" metaclassReference="_h2TkIAPwEeewDI5jM-81FA _h2ULMAPwEeewDI5jM-81FA _h2WAYAPwEeewDI5jM-81FA _h2WAYQPwEeewDI5jM-81FA _h2WncAPwEeewDI5jM-81FA _h2WncQPwEeewDI5jM-81FA _h2XOgAPwEeewDI5jM-81FA _h2X1kAPwEeewDI5jM-81FA _h2YcoAPwEeewDI5jM-81FA _h2ZDsAPwEeewDI5jM-81FA _h2ZqwAPwEeewDI5jM-81FA _h2aR0APwEeewDI5jM-81FA _h2aR0QPwEeewDI5jM-81FA _h2a44APwEeewDI5jM-81FA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m2rCkXBgEd6FKu9XX1078A" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <contents xmi:type="ecore:EPackage" xmi:id="_JpVIYIJYEee3epvelL_xvA" name="OpenModel_Profile" nsURI="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" nsPrefix="OpenModel_Profile">
@@ -9856,6 +9856,9 @@ In shared mode, a shared part object instance can be aggregated by more than one
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml#_CBpGoEdZEearpawF38eisA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_UhyqoPYUEemhYYPUD7M8oA" appliedProfile="_m1xqsHBgEd6FKu9XX1078A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uh28EPYUEemhYYPUD7M8oA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_JpVIYIJYEee3epvelL_xvA"/>
+    </profileApplication>
   </uml:Profile>
   <ecore:EAnnotation xmi:id="_Uv5eQKiLEeSly6b4dPxjLg" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData" references="_VgPY4HB5Ed6UZurF9-h-Jw">
     <contents xmi:type="ecore:EObject" xmi:id="_Uv5eQaiLEeSly6b4dPxjLg" showParent="QualifiedName"/>
@@ -9869,6 +9872,110 @@ In shared mode, a shared part object instance can be aggregated by more than one
   <ecore:EAnnotation xmi:id="_Uv5eRqiLEeSly6b4dPxjLg" source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData" references="_BOL8QHE6Ed6BF4L3a28jeA">
     <contents xmi:type="ecore:EObject" xmi:id="_Uv5eR6iLEeSly6b4dPxjLg" showParent="QualifiedName"/>
   </ecore:EAnnotation>
-  <ProfileLifecycle_Profile:ExperimentalProfileEntity xmi:id="_1f9RwN2EEeavRZOd5ikktA" base_Stereotype="_aJ-ukNjjEea1wr7GsSffog"/>
-  <ProfileLifecycle_Profile:PreliminaryProfileEntity xmi:id="_cHY9kN5hEeaGLqqeTEyVEQ" base_Stereotype="_1j1YMN5gEeaGLqqeTEyVEQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UinxEPYUEemhYYPUD7M8oA" base_Class="_36ZCQHBgEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UipmQPYUEemhYYPUD7M8oA" base_StructuralFeature="_HXmXI3BhEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UiqNUPYUEemhYYPUD7M8oA" base_StructuralFeature="_tD9I4MvfEeWuP4zc4scymQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UirbcPYUEemhYYPUD7M8oA" base_StructuralFeature="_R-0eQNjTEea1wr7GsSffog"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UisCgPYUEemhYYPUD7M8oA" base_StructuralFeature="_iwNxQHBlEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UispkPYUEemhYYPUD7M8oA" base_StructuralFeature="_sUuCwHEoEd6SxZ5y0DIogw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uit3sPYUEemhYYPUD7M8oA" base_StructuralFeature="_5atTwFh0EeaaGczhAqBKxg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UivF0PYUEemhYYPUD7M8oA" base_StructuralFeature="__RruMFh0EeaaGczhAqBKxg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UiwT8PYUEemhYYPUD7M8oA" base_StructuralFeature="_28fUQMvfEeWuP4zc4scymQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uiw7APYUEemhYYPUD7M8oA" base_StructuralFeature="_EKbhgL7REeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UiyJIPYUEemhYYPUD7M8oA" base_StructuralFeature="_S3McgP19EeGrxoCd_NcLdw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UizXQPYUEemhYYPUD7M8oA" base_StructuralFeature="_HXmXIXBhEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Uiz-UPYUEemhYYPUD7M8oA" base_Class="_JVMFMHBhEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui1McPYUEemhYYPUD7M8oA" base_StructuralFeature="_NDZcU3BhEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui2akPYUEemhYYPUD7M8oA" base_StructuralFeature="_wKrjoL7SEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui3osPYUEemhYYPUD7M8oA" base_StructuralFeature="_jBBm0P19EeGrxoCd_NcLdw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui420PYUEemhYYPUD7M8oA" base_StructuralFeature="_NDZcUXBhEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Ui6E8PYUEemhYYPUD7M8oA" base_Class="_FRG9AHBnEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui7TEPYUEemhYYPUD7M8oA" base_StructuralFeature="_FRG9FXBnEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui8hMPYUEemhYYPUD7M8oA" base_StructuralFeature="_FRG9GHBnEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui9IQPYUEemhYYPUD7M8oA" base_StructuralFeature="_gmF-IEZVEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ui-9cPYUEemhYYPUD7M8oA" base_StructuralFeature="_8TxcYL7SEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjALkPYUEemhYYPUD7M8oA" base_StructuralFeature="_mb7AYP19EeGrxoCd_NcLdw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjAyoPYUEemhYYPUD7M8oA" base_StructuralFeature="_FRG9IXBnEd6FKu9XX1078A"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjCAwPYUEemhYYPUD7M8oA" base_Class="_jG59cHEqEd6SxZ5y0DIogw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjCn0PYUEemhYYPUD7M8oA" base_StructuralFeature="_sGoRg3EqEd6SxZ5y0DIogw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjD18PYUEemhYYPUD7M8oA" base_StructuralFeature="_w9boYHEqEd6SxZ5y0DIogw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjFEEPYUEemhYYPUD7M8oA" base_StructuralFeature="_BpwpoL7TEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjFrIPYUEemhYYPUD7M8oA" base_StructuralFeature="_psZSoP19EeGrxoCd_NcLdw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjGSMPYUEemhYYPUD7M8oA" base_StructuralFeature="_sGoRgXEqEd6SxZ5y0DIogw"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjHgUPYUEemhYYPUD7M8oA" base_Class="_jiSAMI7kEeGyB5ASrrNdIA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjIucPYUEemhYYPUD7M8oA" base_StructuralFeature="_Kg_CQpniEeGA7rUYI1JIwg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjJVgPYUEemhYYPUD7M8oA" base_StructuralFeature="_Kg_CQZniEeGA7rUYI1JIwg"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjKjoPYUEemhYYPUD7M8oA" base_Class="_27D5AL7XEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjMY0PYUEemhYYPUD7M8oA" base_StructuralFeature="_HlsDQr7YEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjM_4PYUEemhYYPUD7M8oA" base_StructuralFeature="_5K_C4LaPEeSnGaxGaNSs1w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjOOAPYUEemhYYPUD7M8oA" base_StructuralFeature="_HlsDQb7YEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjO1EPYUEemhYYPUD7M8oA" base_Class="_el7rwL7YEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjQDMPYUEemhYYPUD7M8oA" base_StructuralFeature="_u271Er7YEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjRRUPYUEemhYYPUD7M8oA" base_StructuralFeature="_u271Eb7YEeGcHtJ-koFuEQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjSfcPYUEemhYYPUD7M8oA" base_Class="_3E1eYPNAEeGLMdrUcsEncQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjTtkPYUEemhYYPUD7M8oA" base_StructuralFeature="_BkIu0vNBEeGLMdrUcsEncQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjU7sPYUEemhYYPUD7M8oA" base_StructuralFeature="_BkIu0fNBEeGLMdrUcsEncQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjWJ0PYUEemhYYPUD7M8oA" base_Class="_vQjMkJ2BEeSDYd59zPupRA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjXX8PYUEemhYYPUD7M8oA" base_StructuralFeature="_NUNNcp2CEeSDYd59zPupRA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjYmEPYUEemhYYPUD7M8oA" base_StructuralFeature="_NUNNcZ2CEeSDYd59zPupRA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjZ0MPYUEemhYYPUD7M8oA" base_Class="_h7id0J2CEeSDYd59zPupRA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjabQPYUEemhYYPUD7M8oA" base_StructuralFeature="_ny5SwJ2CEeSDYd59zPupRA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjcQcPYUEemhYYPUD7M8oA" base_StructuralFeature="_EM21cO1nEealZpKGxQi2Dw"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjeFoPYUEemhYYPUD7M8oA" base_Class="_FU4UgJ2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjfTwPYUEemhYYPUD7M8oA" base_StructuralFeature="_sBE5AEcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Ujgh4PYUEemhYYPUD7M8oA" base_Class="_HmOsEJ2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjhwAPYUEemhYYPUD7M8oA" base_StructuralFeature="_ni6roEcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjjlMPYUEemhYYPUD7M8oA" base_Class="_LEgJwJ2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjlaYPYUEemhYYPUD7M8oA" base_StructuralFeature="_jHY7gEcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjnPkPYUEemhYYPUD7M8oA" base_Class="_M6xu4J2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjpEwPYUEemhYYPUD7M8oA" base_StructuralFeature="_fBxJ8EcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Ujpr0PYUEemhYYPUD7M8oA" base_Class="_OwwZEJ2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ujq58PYUEemhYYPUD7M8oA" base_StructuralFeature="_VqOLwEcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjsIEPYUEemhYYPUD7M8oA" base_Class="_QGmKoJ2EEeSk-dMsN-xZbw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjtWMPYUEemhYYPUD7M8oA" base_StructuralFeature="_Red9AEcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UjukUPYUEemhYYPUD7M8oA" base_Class="_oKbrsKiIEeSJmIxGbzx9kA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjvycPYUEemhYYPUD7M8oA" base_StructuralFeature="_vdlJM6iIEeSJmIxGbzx9kA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjxAkPYUEemhYYPUD7M8oA" base_StructuralFeature="_9o2VEKiIEeSJmIxGbzx9kA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UjyOsPYUEemhYYPUD7M8oA" base_StructuralFeature="_cBKXUKiJEeSJmIxGbzx9kA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ujzc0PYUEemhYYPUD7M8oA" base_StructuralFeature="_vdlJMaiIEeSJmIxGbzx9kA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj1SAPYUEemhYYPUD7M8oA" base_StructuralFeature="_5K_C4raPEeSnGaxGaNSs1w"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Uj2gIPYUEemhYYPUD7M8oA" base_Class="_74KP4EZPEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj4VUPYUEemhYYPUD7M8oA" base_StructuralFeature="_N5XgoEZSEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj5jcPYUEemhYYPUD7M8oA" base_StructuralFeature="_PoD3EEZSEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj7YoPYUEemhYYPUD7M8oA" base_StructuralFeature="_QmM6UEZSEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj8mwPYUEemhYYPUD7M8oA" base_StructuralFeature="_nOo04EZUEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj9N0PYUEemhYYPUD7M8oA" base_StructuralFeature="_nOpb8UZUEeW32YsOmT7W0Q"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Uj-b8PYUEemhYYPUD7M8oA" base_Class="_aUYHcEZgEeWzOqfPW42hmw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Uj_qEPYUEemhYYPUD7M8oA" base_StructuralFeature="_3cg7QEZgEeWzOqfPW42hmw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkA4MPYUEemhYYPUD7M8oA" base_StructuralFeature="_3ciJYUZgEeWzOqfPW42hmw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkBfQPYUEemhYYPUD7M8oA" base_StructuralFeature="_RegZQUcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkCtYPYUEemhYYPUD7M8oA" base_StructuralFeature="_VqOy0UcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkD7gPYUEemhYYPUD7M8oA" base_StructuralFeature="_fBxxAUcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkFJoPYUEemhYYPUD7M8oA" base_StructuralFeature="_jHY7gkcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkGXwPYUEemhYYPUD7M8oA" base_StructuralFeature="_ni6rokcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkHl4PYUEemhYYPUD7M8oA" base_StructuralFeature="_sBFgEUcsEeWC5rv-TLU4gA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkI0APYUEemhYYPUD7M8oA" base_Class="_ma6wEJDeEeW51dNDZIXIMA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkJbEPYUEemhYYPUD7M8oA" base_StructuralFeature="_g4VmYJDgEeW51dNDZIXIMA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkKpMPYUEemhYYPUD7M8oA" base_StructuralFeature="_g4U_UJDgEeW51dNDZIXIMA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkLQQPYUEemhYYPUD7M8oA" base_Class="_wvWWABdhEeatXPvf_dRw8w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkL3UPYUEemhYYPUD7M8oA" base_StructuralFeature="_QiORwBdiEeatXPvf_dRw8w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkNFcPYUEemhYYPUD7M8oA" base_StructuralFeature="_QiNDoBdiEeatXPvf_dRw8w"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkNsgPYUEemhYYPUD7M8oA" base_Class="_949Q4FfpEeak-v4LxEsCQw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkOTkPYUEemhYYPUD7M8oA" base_StructuralFeature="_F6T4MFfqEeak-v4LxEsCQw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkO6oPYUEemhYYPUD7M8oA" base_StructuralFeature="_g5k7AFfqEeak-v4LxEsCQw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkQIwPYUEemhYYPUD7M8oA" base_StructuralFeature="_F6TRIFfqEeak-v4LxEsCQw"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkQv0PYUEemhYYPUD7M8oA" base_Class="_aJ-ukNjjEea1wr7GsSffog"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkRW4PYUEemhYYPUD7M8oA" base_Class="_1j1YMN5gEeaGLqqeTEyVEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkSlAPYUEemhYYPUD7M8oA" base_StructuralFeature="_yo_iQd5hEeaGLqqeTEyVEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkTMEPYUEemhYYPUD7M8oA" base_StructuralFeature="_c0HxAO1lEealZpKGxQi2Dw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkUaMPYUEemhYYPUD7M8oA" base_StructuralFeature="_yo_iQN5hEeaGLqqeTEyVEQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkVoUPYUEemhYYPUD7M8oA" base_StructuralFeature="_EM2OYO1nEealZpKGxQi2Dw"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_UkWPYPYUEemhYYPUD7M8oA" base_Class="_6urDcP_gEeaI0OG3Zoa57Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkXdgPYUEemhYYPUD7M8oA" base_StructuralFeature="_e6ANMP_hEeaI0OG3Zoa57Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkYroPYUEemhYYPUD7M8oA" base_StructuralFeature="_fgciIP_hEeaI0OG3Zoa57Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ukag0PYUEemhYYPUD7M8oA" base_StructuralFeature="_e5_mIP_hEeaI0OG3Zoa57Q"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ukbu8PYUEemhYYPUD7M8oA" base_StructuralFeature="_fgb7EP_hEeaI0OG3Zoa57Q"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_Ukc9EPYUEemhYYPUD7M8oA" base_Class="_vOGl8FaVEeeYOvPfNXXwvA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkeLMPYUEemhYYPUD7M8oA" base_StructuralFeature="_-nB3wFaVEeeYOvPfNXXwvA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_UkgAYPYUEemhYYPUD7M8oA" base_StructuralFeature="_-m_bgFaVEeeYOvPfNXXwvA"/>
 </xmi:XMI>
