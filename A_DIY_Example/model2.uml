@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xw2cgMIkEemUuLg_QjWKpw" name="model2">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_f_DWAPojEemC-sYjcHXrNA">
+    <body>ClassTest1 Classtest2 Classtest3都是Package2里面的Class，因此这里有个小箭头了&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_g8ufMPojEemC-sYjcHXrNA"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_gJRO4MIxEemUuLg_QjWKpw" name="Package1">
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_hCLz4MIxEemUuLg_QjWKpw" client="_gJRO4MIxEemUuLg_QjWKpw" supplier="_o-xMwMItEemUuLg_QjWKpw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MLg8cMIwEemUuLg_QjWKpw" name="Class一"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PWNW0MIwEemUuLg_QjWKpw" name="Class二"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Qdo48MIwEemUuLg_QjWKpw" name="Class三"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Y1STcPoiEemC-sYjcHXrNA" name="Package2">
+    <packagedElement xmi:type="uml:Model" xmi:id="_IyC_4MIoEemUuLg_QjWKpw" name="ModelTest1">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_rSEXAMIrEemUuLg_QjWKpw" client="_58lngMInEemUuLg_QjWKpw" supplier="_7tN3oMInEemUuLg_QjWKpw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_yf4BgMIrEemUuLg_QjWKpw" client="_2k22sMInEemUuLg_QjWKpw" supplier="_7tN3oMInEemUuLg_QjWKpw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2k22sMInEemUuLg_QjWKpw" name="ClassTest1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_58lngMInEemUuLg_QjWKpw" name="ClassTest2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7tN3oMInEemUuLg_QjWKpw" name="ClassTest3"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bfXacPoqEemC-sYjcHXrNA" name="ClassTest4"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_vFfzEMIwEemUuLg_QjWKpw" client="_Qdo48MIwEemUuLg_QjWKpw" supplier="_MLg8cMIwEemUuLg_QjWKpw"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_vrHooMIwEemUuLg_QjWKpw" client="_PWNW0MIwEemUuLg_QjWKpw" supplier="_MLg8cMIwEemUuLg_QjWKpw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2pESMMIwEemUuLg_QjWKpw" name="d" client="_Qdo48MIwEemUuLg_QjWKpw" supplier="_MLg8cMIwEemUuLg_QjWKpw"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_bOdhwMIxEemUuLg_QjWKpw" client="_napuoMItEemUuLg_QjWKpw" supplier="_qqAmkMItEemUuLg_QjWKpw"/>
+  <packagedElement xmi:type="uml:Abstraction" xmi:id="_cCgN0MIxEemUuLg_QjWKpw" client="_napuoMItEemUuLg_QjWKpw" supplier="_xw2cgMIkEemUuLg_QjWKpw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_4up0kPopEemC-sYjcHXrNA" client="_rCdxYPopEemC-sYjcHXrNA" supplier="_pGJOoPopEemC-sYjcHXrNA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_napuoMItEemUuLg_QjWKpw" name="ClassA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o-xMwMItEemUuLg_QjWKpw" name="ClassB">
+    <generalization xmi:type="uml:Generalization" xmi:id="_X-D9cMIwEemUuLg_QjWKpw" general="_napuoMItEemUuLg_QjWKpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qqAmkMItEemUuLg_QjWKpw" name="ClassC">
+    <generalization xmi:type="uml:Generalization" xmi:id="_WsSMgMIwEemUuLg_QjWKpw" general="_napuoMItEemUuLg_QjWKpw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pGJOoPopEemC-sYjcHXrNA" name="ClassArror1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rCdxYPopEemC-sYjcHXrNA" name="ClassArror2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w9YQoPopEemC-sYjcHXrNA" name="ClassArror3">
+    <generalization xmi:type="uml:Generalization" xmi:id="_FVZ5sPoqEemC-sYjcHXrNA" general="_pGJOoPopEemC-sYjcHXrNA"/>
+  </packagedElement>
+</uml:Model>

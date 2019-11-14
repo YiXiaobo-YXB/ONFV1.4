@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:RootElement="http:///schemas/RootElement/_7S2aYHpQEeaVjtpstJMDXA/37" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 OpenModel_Profile.profile.uml#_JpVIYIJYEee3epvelL_xvA http:///schemas/RootElement/_7S2aYHpQEeaVjtpstJMDXA/37 Experimental.profile.uml#_7S9vIHpQEeaVjtpstJMDXA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:RootElement="http:///schemas/RootElement/_QcqcwPYeEemhYYPUD7M8oA/38" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 OpenModel_Profile.profile.uml#_JpVIYIJYEee3epvelL_xvA http:///schemas/RootElement/_QcqcwPYeEemhYYPUD7M8oA/38 Experimental.profile.uml#_Qcv8UPYeEemhYYPUD7M8oA">
   <uml:Package xmi:id="_oGqilVLNEeO75dO39GbF8Q" name="CoreModel">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_8Q4ecKxrEeS5HuAudtqItw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -3385,7 +3385,9 @@ Note that the controlled entity may be another controller.</body>
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_kr10UEDrEeWHCPNn7aoIVw" name="ExplanatoryFiguresUsedInDocumentsAndSlides"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_kr10UEDrEeWHCPNn7aoIVw" name="ExplanatoryFiguresUsedInDocumentsAndSlides">
+      <packagedElement xmi:type="uml:LiteralBoolean" xmi:id="_xTnt0PliEemhFsJWHh4pgg" name="LiteralBoolean1"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VKBRsD0REeaRI-H69PghuA" name="CoreOperationsModel">
       <packagedElement xmi:type="uml:Package" xmi:id="_ueUQUD3pEeaRI-H69PghuA" name="Pattern">
         <packagedElement xmi:type="uml:Package" xmi:id="_m4aO4D3pEeaRI-H69PghuA" name="Associations">
@@ -6519,15 +6521,15 @@ Equialent to an ITU-T CTP [ITU-T G.8052].</body>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_nKzQ4BJvEeajhbtskMXJfw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1W15gHpREeaVjtpstJMDXA" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1W15gXpREeaVjtpstJMDXA" key="Version" value="0.0.38"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1W15gnpREeaVjtpstJMDXA" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1W15g3pREeaVjtpstJMDXA" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1W15hHpREeaVjtpstJMDXA" key="Date" value="2016-09-14"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1W15hXpREeaVjtpstJMDXA" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpQD0PlbEemhFsJWHh4pgg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpQD0flbEemhFsJWHh4pgg" key="Version" value="0.0.39"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpQD0vlbEemhFsJWHh4pgg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpQD0_lbEemhFsJWHh4pgg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpQD1PlbEemhFsJWHh4pgg" key="Date" value="2019-10-24"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpQD1flbEemhFsJWHh4pgg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nK0fABJvEeajhbtskMXJfw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="Experimental.profile.uml#_7S9vIHpQEeaVjtpstJMDXA"/>
+        <references xmi:type="ecore:EPackage" href="Experimental.profile.uml#_Qcv8UPYeEemhYYPUD7M8oA"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="Experimental.profile.uml#_EDtRcAH_Eea6DZDQ0h6cdQ"/>
     </profileApplication>

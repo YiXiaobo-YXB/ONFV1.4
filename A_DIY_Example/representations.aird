@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmi:id="_gfs9ILdVEemg28NXO3VaWA" version="13.0.0.201804031646">
+  <semanticResources>DIY.notation</semanticResources>
+  <semanticResources>DIY.di</semanticResources>
+  <semanticResources>DIY.uml</semanticResources>
+  <semanticResources>model.notation</semanticResources>
+  <semanticResources>model.di</semanticResources>
+  <semanticResources>model.uml</semanticResources>
+  <semanticResources>model2.notation</semanticResources>
+  <semanticResources>model2.di</semanticResources>
+  <semanticResources>model2.uml</semanticResources>
+  <semanticResources>OpenModelProfile/Experimental.profile.uml</semanticResources>
+  <semanticResources>OpenModelProfile/OpenModel_Profile.profile.di</semanticResources>
+  <semanticResources>OpenModelProfile/OpenModel_Profile.profile.notation</semanticResources>
+  <semanticResources>OpenModelProfile/OpenModel_Profile.profile.uml</semanticResources>
+  <semanticResources>pathmap://UML_METAMODELS/UML.metamodel.uml</semanticResources>
+  <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML</semanticResources>
+  <semanticResources>http://www.eclipse.org/uml2/5.0.0/Types</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml</semanticResources>
+  <semanticResources>pathmap://UML_PROFILES/Ecore.profile.uml</semanticResources>
+  <semanticResources>pathmap://UML_PROFILES/Standard.profile.uml</semanticResources>
+  <semanticResources>http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard</semanticResources>
+  <semanticResources>pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml</semanticResources>
+  <semanticResources>pathmap://UML_METAMODELS/Ecore.metamodel.uml</semanticResources>
+  <semanticResources>ClassDiagramStyleSheet.css</semanticResources>
+  <semanticResources>OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.di</semanticResources>
+  <semanticResources>OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.notation</semanticResources>
+  <semanticResources>OpenInterfaceModelProfile/OpenInterfaceModel_Profile.profile.uml</semanticResources>
+  <semanticResources>ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.di</semanticResources>
+  <semanticResources>ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.notation</semanticResources>
+  <semanticResources>ProfileLifecycleProfile/ProfileLifecycle_Profile.profile.uml</semanticResources>
+</viewpoint:DAnalysis>

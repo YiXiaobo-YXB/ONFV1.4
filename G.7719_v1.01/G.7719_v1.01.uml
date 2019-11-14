@@ -69,8 +69,6 @@
   <OpenModel_Profile:ExtendedComposite xmi:id="_lyOzQFp6EemdKvJQ7-jTBQ" base_Association="_-Au0EFp5EemdKvJQ7-jTBQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_CsL5wFp-EemdKvJQ7-jTBQ" base_Class="_CsKroFp-EemdKvJQ7-jTBQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_YE0rQVp-EemdKvJQ7-jTBQ" base_Class="_YE0rQFp-EemdKvJQ7-jTBQ"/>
-  <OpenModel_Profile:Experimental xmi:id="_jPQRcFqAEemdKvJQ7-jTBQ"/>
-  <OpenModel_Profile:Specify xmi:id="_jPoE4FqAEemdKvJQ7-jTBQ"/>
   <OpenModel_Profile:Experimental xmi:id="_VQm5YFqNEemdKvJQ7-jTBQ" base_Element="_NsGmIFqNEemdKvJQ7-jTBQ"/>
   <OpenModel_Profile:Specify xmi:id="_VRCXMFqNEemdKvJQ7-jTBQ" base_Abstraction="_NsGmIFqNEemdKvJQ7-jTBQ"/>
   <OpenModel_Profile:Experimental xmi:id="_i8vSMFqNEemdKvJQ7-jTBQ" base_Element="_XY6psFqNEemdKvJQ7-jTBQ"/>

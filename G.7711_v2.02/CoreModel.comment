@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<papyrustextinstance:PapyrusTextInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:papyrustextinstance="http://www.eclipse.org/Papyrus/Example/0.9.0/papyrustextinstance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" type="CommentEditorNewResource" name="Comment Editor New Resource">
+  <editedObject xmi:type="uml:Comment" href="CoreModel.uml#_5kkT8GpHEeaBUOurxzA2sw"/>
+</papyrustextinstance:PapyrusTextInstance>

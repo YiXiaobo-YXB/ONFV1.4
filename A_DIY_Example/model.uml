@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oEf5YLdXEemg28NXO3VaWA" name="model">
+  <packagedElement xmi:type="uml:Model" xmi:id="_4-o1kPleEemhFsJWHh4pgg" name="ModelNew"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_oYGhIPleEemhFsJWHh4pgg" name="NewPackage"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_rJzgsPYREemhYYPUD7M8oA" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hjdW0PlZEemhFsJWHh4pgg" name="Class3"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hHz8oPlZEemhFsJWHh4pgg" name="Class2">
+    <generalization xmi:type="uml:Generalization" xmi:id="_zqyvoPlZEemhFsJWHh4pgg" general="_rJzgsPYREemhYYPUD7M8oA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_h_UMYPlZEemhFsJWHh4pgg" name="Class4">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0pGK8PlZEemhFsJWHh4pgg" general="_hjdW0PlZEemhFsJWHh4pgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iSu3oPlZEemhFsJWHh4pgg" name="Class5"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ipg_8PlZEemhFsJWHh4pgg" name="Class6">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5cGm8PlZEemhFsJWHh4pgg" general="_iSu3oPlZEemhFsJWHh4pgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_X7SGMPlaEemhFsJWHh4pgg" name="ClassA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bQMzkPlaEemhFsJWHh4pgg" name="ClassB"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dgs2kPlaEemhFsJWHh4pgg" name="ClassC"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_e_1HAPlaEemhFsJWHh4pgg" name="ClassA1">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vCEbkPlaEemhFsJWHh4pgg" general="_X7SGMPlaEemhFsJWHh4pgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pFXzoPlaEemhFsJWHh4pgg" name="ClassA2">
+    <generalization xmi:type="uml:Generalization" xmi:id="_vzfRcPlaEemhFsJWHh4pgg" general="_X7SGMPlaEemhFsJWHh4pgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qrTPoPlaEemhFsJWHh4pgg" name="ClassB1">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wbtvEPlaEemhFsJWHh4pgg" general="_bQMzkPlaEemhFsJWHh4pgg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_r5BnAPlaEemhFsJWHh4pgg" name="ClassB2">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0YXK0PlaEemhFsJWHh4pgg" general="_bQMzkPlaEemhFsJWHh4pgg"/>
+  </packagedElement>
+</uml:Model>
