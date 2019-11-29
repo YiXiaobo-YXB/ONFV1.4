@@ -7863,7 +7863,7 @@ This may require an &quot;isAdjusting&quot; property.&#xD;
 This peculiarly leads to the opportunity to pause a task that is adjusting another task. I suspect that the task being adjusted needs to record which task is adjusting it.</body>
           </ownedComment>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_XFoTiBbsEeitqc-Dc8Gf8A" name="UserToProviderFlow" informationSource="_XFoTRRbsEeitqc-Dc8Gf8A" informationTarget="_XFoTMRbsEeitqc-Dc8Gf8A"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_XFoTiRbsEeitqc-Dc8Gf8A" name="ProviderToUserFlow" informationSource="_XFoTMRbsEeitqc-Dc8Gf8A" informationTarget="_XFoTRRbsEeitqc-Dc8Gf8A"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_XFoTiRbsEeitqc-Dc8Gf8A" name="ProviderToUserFlow" informationSource="_XFoTMRbsEeitqc-Dc8Gf8A _kr10UEDrEeWHCPNn7aoIVw" informationTarget="_XFoTRRbsEeitqc-Dc8Gf8A"/>
           <packagedElement xmi:type="uml:Realization" xmi:id="_XFoTihbsEeitqc-Dc8Gf8A" name="SignalRealizesFleetingFc" client="_XFoTSxbsEeitqc-Dc8Gf8A" supplier="_oGqmC1LNEeO75dO39GbF8Q"/>
           <packagedElement xmi:type="uml:Realization" xmi:id="_XFoTixbsEeitqc-Dc8Gf8A" name="SignalRealizesFleetingFc" client="_XFoTSRbsEeitqc-Dc8Gf8A" supplier="_oGqmC1LNEeO75dO39GbF8Q"/>
           <packagedElement xmi:type="uml:Realization" xmi:id="_XFoTjRbsEeitqc-Dc8Gf8A" name="RealizesDetailSignalConsumer" client="_XFoTRRbsEeitqc-Dc8Gf8A" supplier="_XFoTORbsEeitqc-Dc8Gf8A"/>
